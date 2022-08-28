@@ -40,7 +40,6 @@ figure {
   justify-content: space-between;
   height: 80px;
   align-items: center;
-  padding-left: 215px;
 }
 
 .main-logo {
@@ -94,7 +93,6 @@ figure {
 .contact {
   list-style: none;
   display: flex;
-  margin-right: 227px;
 }
 
 .contact-item a {
@@ -210,7 +208,7 @@ figure {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin: 50px 215px 0;
+  margin-top: 50px;
 }
 
 .team-header {
@@ -225,7 +223,7 @@ figure {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin: 50px 215px 0 215px;
+  margin-top: 50px;
 }
 
 .team-list-item-container {
@@ -279,7 +277,7 @@ figure {
   text-decoration: none;
 
   display: block;
-  padding: 60px 215px 20px;
+  padding: 60px 0 20px;
 }
 
 .logo-secondary-footer {
@@ -288,7 +286,6 @@ figure {
 
 .footer-contact {
   list-style: none;
-  margin-left: 215px;
   padding-bottom: 60px;
 }
 
