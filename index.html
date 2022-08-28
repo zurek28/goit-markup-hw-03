@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Normalizacja CSS -->
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
+
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,7 +19,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="header-container">
       <nav class="menu">
         <a href="./" class="main-logo">Web<span class="logo-secondary">Studio</span></a>
 
@@ -57,24 +61,24 @@
           </li>
 
           <li class="short-info-item">
-            <h3>Lorem, ipsum.</h3>
-            <p>
+            <h3 class="short-info-item-header">Lorem, ipsum.</h3>
+            <p class="short-info-item-paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid labore laudantium
               sequi amet ipsa? Fugiat corporis in vero corrupti reiciendis!
             </p>
           </li>
 
           <li class="short-info-item">
-            <h3>Lorem, ipsum.</h3>
-            <p>
+            <h3 class="short-info-item-header">Lorem, ipsum.</h3>
+            <p class="short-info-item-paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quos atque facere
               similique pariatur voluptates libero incidunt, dolor voluptatum enim?
             </p>
           </li>
 
           <li class="short-info-item">
-            <h3>Lorem, ipsum.</h3>
-            <p>
+            <h3 class="short-info-item-header">Lorem, ipsum.</h3>
+            <p class="short-info-item-paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quos atque facere
               similique pariatur voluptates libero incidunt, dolor voluptatum enim?
             </p>
@@ -116,7 +120,7 @@
         <h2 class="team-header">Nasz zespół</h2>
         <ul class="team-list">
           <li class="team-list-item">
-            <figure>
+            <figure class="team-list-item-container">
               <img src="./images/home/4853.jpg" alt="Zdjęcie John'a Doe" height="260" width="270" />
               <h3 class="worker-name">John Doe</h3>
               <p class="worker-profession">Product Designer</p>
@@ -124,7 +128,7 @@
           </li>
 
           <li class="team-list-item">
-            <figure>
+            <figure class="team-list-item-container">
               <img src="./images/home/5844.jpg" alt="Zdjęcie John'a Doe" height="260" width="270" />
               <h3 class="worker-name">John Doe</h3>
               <p class="worker-profession">Frontend Developer</p>
@@ -132,7 +136,7 @@
           </li>
 
           <li class="team-list-item">
-            <figure>
+            <figure class="team-list-item-container">
               <img
                 src="./images/home/16166.jpg"
                 alt="Zdjęcie John'a Doe"
@@ -145,7 +149,7 @@
           </li>
 
           <li class="team-list-item">
-            <figure>
+            <figure class="team-list-item-container">
               <img src="./images/home/2968.jpg" alt="Zdjęcie John'a Doe" height="260" width="270" />
               <h3 class="worker-name">John Doe</h3>
               <p class="worker-profession">UI Designer</p>
