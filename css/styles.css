@@ -26,6 +26,15 @@ figure {
   padding: 0;
 }
 
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.section {
+  padding-bottom: 94px;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -154,7 +163,7 @@ figure {
   display: flex;
   list-style: none;
   width: 1170px;
-  margin: 94px auto;
+  margin: 94px auto 0;
 }
 
 .short-info-item {
@@ -201,7 +210,7 @@ figure {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin: 50px 215px 188px 215px;
+  margin: 50px 215px 0;
 }
 
 .team-header {
@@ -216,7 +225,7 @@ figure {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin: 50px 215px 94px 215px;
+  margin: 50px 215px 0 215px;
 }
 
 .team-list-item-container {
@@ -309,7 +318,7 @@ figure {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin-top: 94px;
+  /* margin-top: 94px; */
 }
 
 .sort-buttons-apperance {
